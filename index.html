@@ -1,26 +1,27 @@
 <html>
 <head>
 	<title>AI MUSIC WEB APP</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js" integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+  
  
 </head>
-<body background="Background.webp">
+<body background="WhatsApp Image 2022-03-11 at 13.22.10.jpeg">
 <center>
-  	<h3 class="btn btn-heading" id = "heading" style="font-family:monospace;">AI MUSIC WEB APP
+  	<h3 class="btn btn-warning heading" style="font-family: 'Courier New', Courier, monospace;">AI MUSIC WEB APP
 	    <br>
-	    <span class="note">NOTE - Get your left-hand wrist in front of the webcam to play peter play song. 
+	    <span class="note" style="font-family: 'Courier New', Courier, monospace;" >NOTE - Get your left-hand wrist in front of the webcam to play peter play song. 
 			Get your right-hand wrist in front of the webcam to play harry potter 
             <br>
             theme song . 
@@ -30,5 +31,10 @@
   	</h3>
 
 	<br><br>
-	<h3 class="btn btn-heading" id="song" style="font-family:'Courier New', Courier, monospace;">Song Name</h3>
+	<h3 class="btn btn-danger song_name" onclick="play()" style="font-family: 'Courier New', Courier, monospace;">Song Name</h3>
+  
+  
 </center>
+<script src="main.js"></script>
+</body>
+</html>

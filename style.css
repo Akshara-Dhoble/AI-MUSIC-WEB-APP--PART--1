@@ -1,35 +1,19 @@
-.heading
-{
-  font-size: 23px;
+body{
+  background-size: cover;
+}
+.heading{
   width: 100%;
-  margin: 0px;
-}
-.note
-{
-  font-size: 15px;
-  color: black;
-}
-body
-{
-  background-size: cover;	
-}
-  #song
-  {
-  	font-size: 23px;
-  	margin: 15px;
-    color: crimson;
-    background-color: white;
-  }
-  canvas{
-   background-color: white;
-   border: 5px solid white;
-   border-radius: 20px;
-   box-shadow: 5px 5px 5px gray;
-}
-#heading{
-    background-color:white ;
-    color: crimson;
+  margin: 0;
+  font-size: 20px;
 }
 .note{
-    color: crimson;
+    font-size: 75%;
+}
+.song_name{
+  font-size: 20px;
+}
+canvas{
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
 }
